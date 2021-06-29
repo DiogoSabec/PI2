@@ -1,0 +1,41 @@
+ion-col {
+    border: 1px solid #1f1f1f
+    ;
+    border-left: 0;
+  }
+  img {
+      border-radius: 10px;
+      
+  }
+
+  .nota {
+      font-size: 12px;
+      margin-top: 2px;
+      margin-bottom: 5px;
+  }
+
+  .sinopse {
+      font-size: 15px;
+  }
+
+  ion-button{
+      width: 95px;
+      font-size: 12px;
+  }
+  p {
+      margin-bottom: 0;
+  }
+  
+  #search {
+      display: inline-flex;
+      align-items: center;
+  }
+
+  ion-searchbar{
+      width: 250px;
+  }
+
+  ion-icon {
+      width: 30px;
+      height: 30px;
+  }
