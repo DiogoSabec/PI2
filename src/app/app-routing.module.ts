@@ -14,6 +14,10 @@ const routes: Routes = [
   {
     path: 'menu',
     loadChildren: () => import('./menu/menu.module').then( m => m.MenuPageModule)
+  },
+  {
+    path: 'pg-pc',
+    loadChildren: () => import('./pg-pc/pg-pc.module').then( m => m.PgPCPageModule)
   }
 ];
 
