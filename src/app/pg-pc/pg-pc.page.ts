@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pg-pc.page.scss'],
 })
 export class PgPCPage implements OnInit {
-
+  userInput;
   constructor() { }
 
   ngOnInit() {
   }
 
 }
+

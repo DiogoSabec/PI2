@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'pg-pc',
     loadChildren: () => import('./pg-pc/pg-pc.module').then( m => m.PgPCPageModule)
+  },
+  {
+    path: 'apc',
+    loadChildren: () => import('./apc/apc.module').then( m => m.ApcPageModule)
   }
 ];
 

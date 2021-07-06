@@ -35,10 +35,41 @@
   </ion-grid>
 
   <ion-grid>
-    <ion-row>
-      
+    <ion-row size="12">
+      <Strong>Deixe sua nota:</Strong>
     </ion-row>
-  </ion-grid>
 
+    <ion-row>
+      <ion-range min="0" max="10" step="1" snaps="true" bar="true" color="secondary">
+        <ion-label slot="start">0</ion-label>
+        <ion-label slot="middle">0</ion-label>
+        <ion-label slot="end">10</ion-label>
+      </ion-range>
+    </ion-row>
+
+    <ion-row size="12">
+      <strong>Deixe sua crítica:</strong>
+    </ion-row>
+
+ 
+
+      <ion-row size="12">
+        <ion-input placeholder="Digite sua análise aqui!" [(ngModel)]="userInput"></ion-input>
+      </ion-row>
+
+      <ion-row size="12" style="justify-content:center">
+        <ion-button id="botão" size="large">Enviar análise</ion-button>
+      </ion-row>
+
+  
+
+    <ion-row size="12" style="justify-content:center">
+      <ion-button id="botão" size="large" href="/apc">Ver análises</ion-button>
+    </ion-row>
+
+    <p>{{userInput}}</p>
+    
+
+  </ion-grid>
 
 </ion-content>
